@@ -33,7 +33,6 @@ const getCarDbById = async (id) => {
 const createCarDb = async (body, id) => {
   let values = [];
   let {year, make, model, price, isDealer} = body;
-  console.log(body); 
   try {
     values.push(id);
     values.push(year);
