@@ -1,0 +1,20 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build output
+build/
+dist/
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore logs
+*.log
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore package-lock.json (useful when using yarn instead)
+package-lock.json
